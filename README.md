@@ -4,7 +4,7 @@ This is my internship project i work on one online teaching tool websites. build
 # figma design link-
 $ https://www.figma.com/file/Wc1xSFEa7XHwsJ3H56Zdpe/Untitled?type=design&node-id=0%3A1&mode=design&t=QgaXO8VXJtorC089-1
 
-# Admin websiite-
+# Admin website-
   # working
     to add course content 
 
