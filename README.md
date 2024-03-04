@@ -35,7 +35,7 @@ $ https://www.figma.com/file/Wc1xSFEa7XHwsJ3H56Zdpe/Untitled?type=design&node-id
 
 
 
-![Screenshot (197)](https://github.com/9623progress/OTT-website/assets/107192328/cc87a559-8152-45aa-95cf-43123711469d)
+![Screenshot (182)](https://github.com/9623progress/OTT-website/assets/107192328/dac43b33-bcf7-42bf-aaa2-caa1cff0ee73)
 
 
 
