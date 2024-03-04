@@ -50,8 +50,10 @@ $ https://www.figma.com/file/Wc1xSFEa7XHwsJ3H56Zdpe/Untitled?type=design&node-id
 ![Screenshot (181)](https://github.com/9623progress/OTT-website/assets/107192328/4bd843b9-8d61-447f-a814-ea6d10399f5b)
 
 
+![Screenshot (182)](https://github.com/9623progress/OTT-website/assets/107192328/c2107fe6-6f1b-4491-aaaf-c55b48dae9ab)
 
-![Screenshot (182)](https://github.com/9623progress/OTT-website/assets/107192328/08addf52-80b0-4f7f-8b37-1ed65c03f553)
+
+![Screenshot (187)](https://github.com/9623progress/OTT-website/assets/107192328/08addf52-80b0-4f7f-8b37-1ed65c03f553)
 
 
 
