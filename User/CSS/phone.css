@@ -1,0 +1,79 @@
+/* Existing styles for screens with a maximum width of 600px */
+
+@media screen and (max-width: 600px) {
+ 
+  /* Navbar */
+  .navbar .icon {
+    display: block;
+    text-decoration: none;
+  }
+
+  .navbar .nav {
+    display: none;
+    flex-direction: column;
+  }
+
+  .navbar.responsive .nav {
+    display: flex;
+  }
+
+  .navbar.responsive .nav a {
+    display: block;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .navbar.responsive .icon {
+    display: block;
+  }
+
+  /* Tagline */
+  .tagline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tagline .heading {
+    text-align: center;
+  }
+
+  .tagline .heading p {
+    color: #A084DC;
+    /* padding: 30px; */
+    font-size: 1rem;
+  }
+
+  .tagline .heading h1 {
+    color: #645CBB;
+    font-size: 2rem;
+  }
+
+  /* Section */
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #C2D9FF;
+    padding: 20px;
+  }
+
+  .section h1 {
+    color: #645CBB;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .section p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0;
+    margin-top: 10px;
+  }
+}

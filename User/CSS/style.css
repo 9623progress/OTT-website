@@ -1,0 +1,282 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  .navbar {
+  background-color: #C2D9FF;
+  overflow: hidden;
+  padding:  10px 20px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Set the navbar to fixed position */
+  width: 100%; /* Occupy the full width of the viewport */
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 1000; /* Set a high z-index to ensure it appears above other elements */
+    
+  }
+  
+  .navbar .logo {
+    color:#645CBB;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  
+  .navbar .nav {
+    display: flex;
+  }
+  
+  .navbar .nav a {
+    color: #645CBB;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+  
+  .navbar .nav a:hover {
+    background-color:#645CBB;
+    color: #fff;
+  }
+  .navbar .icon{
+    display: none;
+  }
+
+  .tagline{
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tagline .heading{
+    text-align: center;
+  }
+  .tagline .heading p{
+    color: #A084DC;
+    padding: 30px;
+    font-size: 1.3rem;
+  }
+  .tagline .heading h1{
+    color: #645CBB;
+    font-size: 3rem;
+  }
+
+  .tagline .image img{
+    width: 320px;
+    height: 320px;
+}
+/* section */
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #C2D9FF;
+    padding:10px 50px 10px 50px;
+}
+.section h1{
+    color: #645CBB;
+    font-size: 3rem;
+    margin-right: 50px;
+}
+.section p{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+h1{
+  text-align: center;
+  color: #645CBB;
+}
+
+/* //card */
+
+/* Improved card styling with added spacing */
+.card {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: space-around; /* Distribute cards evenly along the container */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  margin: 20px;
+}
+
+.course-card {
+  background-color: #fff;
+  width: 300px;
+  border: 1px solid #645CBB;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px; /* Add margin to create space between cards */
+}
+
+.thumbnail {
+  padding: 10px;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
+
+.course-details {
+  padding: 10px;
+}
+
+.course-name {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 16px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.rating {
+  font-size: 14px;
+  color: #ff9800;
+  margin-bottom: 10px;
+}
+
+.add-to-cart {
+  width: 100%;
+  background-color: #645CBB;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 0 0 8px 8px;
+ 
+}
+
+.add-to-cart:hover {
+  background-color: #A084DC;
+  
+}
+.cart-link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  
+}
+a#c_link{
+  padding: 0;
+}
+
+.cart-img {
+  width: 30px; /* Adjust the width as needed */
+  height: auto;
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+}
+
+.cart-link:hover .cart-img {
+  transform: scale(1.1); /* Add a slight scale effect on hover */
+}
+
+.view-content{
+  width: 100%;
+  text-align: center;
+  border: none;
+  background-color: #645CBB;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: auto
+}
+.view-content:hover{
+  background-color: #A084DC;
+}
+
+#subscritption_card{
+  margin-top: 100px;
+}
+
+.stars{
+  display: flex;
+  margin: 1px;
+}
+
+
+.stars span {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.stars span:hover,
+.stars span.clicked {
+  color: gold;
+}
+.stars span.hovered {
+  color: gold;
+}
+
+
+
+.stars span{
+  color:#ccc;
+}
+
+div.rating{
+ padding: 0% 32%;
+ margin: 0%;
+}
+
+.mark{
+  color:#FFD700;
+}
+
+.unmark{
+  color:#ccc;
+}
+
+
+.dropdown-options {
+  display: none;
+}
+
+.dropdown-options.show {
+  display: block;
+}
+
+.rating-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.dropdown-options {
+  display: none;
+  /* position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1; */
+}
+
+.dropdown-options.show {
+  display: block;
+}
+ .drop{
+  background-color: #645CBB;
+  color: #fff;
+  border: none;
+}

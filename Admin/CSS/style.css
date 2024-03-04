@@ -1,0 +1,170 @@
+/* Larger screens styles */
+
+/* color4=#C2D9FF */
+/* color1= #645CBB*/
+/* color2=#A084DC */
+/* color3=#BFACE2 */
+/* extra= #9498EA*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  .navbar {
+    background-color: #C2D9FF;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .navbar .logo {
+    color:#645CBB;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  
+  .navbar .nav {
+    display: flex;
+  }
+  
+  .navbar .nav a {
+    color: #645CBB;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+  
+  .navbar .nav a:hover {
+    background-color:#645CBB;
+    color: #fff;
+  }
+  .navbar .icon{
+    display: none;
+  }
+
+  .tagline{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tagline .heading{
+    text-align: center;
+  }
+  .tagline .heading p{
+    color: #A084DC;
+    padding: 30px;
+    font-size: 1.3rem;
+  }
+  .tagline .heading h1{
+    color: #645CBB;
+    font-size: 3rem;
+  }
+
+  /* form */
+
+  /* Reset some default styles */
+ h1, h2, p, select, input, button {
+  margin: 0;
+  padding: 0;
+}
+
+.addinfo{
+  text-align: center;
+  color: #645CBB;
+  background-color:#C2D9FF;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+label, input, select, button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #645CBB;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #A084DC;
+}
+.table{
+  text-align: center;
+  color: #645CBB;
+  margin: 5px;
+}
+
+
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  /* border-collapse: collapse; */
+  border: 2px solid #645CBB;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #645CBB;
+  color: white;
+}
+textarea{
+  max-width: 100%;
+}
+
+.footer{
+  padding-top: 5px;
+  padding-bottom: 10px;
+text-align: center;
+background-color: #645CBB;
+color: #fff;
+}
+.footer .line{
+  margin-bottom: 10px;
+  width: 80%;
+  height: 0;
+  border: 1px solid #fff;
+  margin: auto;
+}
+
+  
+  
+  /* Additional styles for larger screens */
+  
+  

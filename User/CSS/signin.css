@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,#645CBB ,  #C2D9FF );
+    
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text within container */
+}
+
+.google {
+    display: flex;
+   
+    justify-content: center;
+    background-color: red;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+  
+}
+
+.google a {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.google:hover {
+    background-color: rgb(241, 106, 106);
+}
+
+.google img {
+    background-color: #fff;
+    width: 25px; /* Adjust the width as needed */
+    margin-right: 10px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container .register{
+    margin: 8px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #190482;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b6a8ea;
+}

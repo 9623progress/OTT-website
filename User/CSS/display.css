@@ -1,0 +1,137 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation-menu {
+    flex: 1;
+    background-color: #C2D9FF;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid white;
+    padding: 0;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.navigation-menu .unit {
+    background-color: #645CBB;
+    color: #fff;
+    padding: 5px;
+}
+
+.navigation-menu .unit:hover {
+    background-color: #A084DC;
+}
+
+.navigation-menu .topic {
+    border: 1px solid #645CBB;
+    padding: 3px;
+    color: #645CBB;
+}
+
+.navigation-menu .topic:hover {
+    background-color: #A084DC;
+    color: #fff;
+}
+
+.navigation-menu h2 {
+    margin-bottom: 20px;
+}
+
+.navigation-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation-menu li {
+    margin-bottom: 10px;
+}
+
+.navigation-menu li a {
+    width: auto;
+    text-decoration: none;
+    color: #333;
+}
+
+.navigation-menu li a:hover {
+    color: #007bff;
+}
+
+.content-display {
+    flex: 3;
+    padding: 20px;
+}
+
+.content-item {
+    margin-bottom: 30px;
+}
+
+.content-item h3 {
+    color: #007bff;
+}
+
+.button ,.back {
+    display: block;
+    margin-top: 10px;
+    background-color: #645CBB;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.back ,.button:hover {
+    background-color: #A084DC;
+    transition: background-color 0.3s ease;
+}
+.button{
+    display: none;
+}
+
+/* Customize the appearance of the video, image, and iframe elements as needed */
+video,
+img,
+iframe {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+
+/* Add additional styling for the content types as needed */
+@media screen and (max-width: 768px) {
+    .button{
+        display: block;
+        width: 100%;
+    }
+
+     .navigation-menu-visible  {
+        display: block;
+    }
+
+    .content-display-visible  {
+        display: block;
+    }
+
+   .navigation-menu-hidden  {
+        display: none;
+    }
+
+ .content-display-hidden {
+        display: none;
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "require": {
+        "google/apiclient": "^2.0",
+        "razorpay/razorpay": "2.*",
+        "stripe/stripe-php": "^13.9"
+    },
+    
+    "scripts": {
+        "start": "php -S 0.0.0.0:8080 -t public public/index.php"
+      },
+      "config": {
+        "process-timeout":0
+      }
+    
+}
