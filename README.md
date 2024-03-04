@@ -51,7 +51,7 @@ $ https://www.figma.com/file/Wc1xSFEa7XHwsJ3H56Zdpe/Untitled?type=design&node-id
 
 
 
-![Screenshot (187)](https://github.com/9623progress/OTT-website/assets/107192328/08addf52-80b0-4f7f-8b37-1ed65c03f553)
+![Screenshot (182)](https://github.com/9623progress/OTT-website/assets/107192328/08addf52-80b0-4f7f-8b37-1ed65c03f553)
 
 
 
