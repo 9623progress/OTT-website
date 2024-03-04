@@ -1,5 +1,28 @@
-# OTT-website
-This is my internship project i work on one online teaching tool websites. build in php ,MySql, html, css, Javascript
+
+# Online Teaching Tool Website Internship Project
+
+During my one-month internship at Cognifront Private Limited Nashik, I had the opportunity to work on an exciting project involving the development of an online teaching tool website. This project was built using a combination of PHP, MySQL, HTML, CSS, and JavaScript. 
+
+## Project Overview
+The goal of the project was to create a platform that facilitates online teaching and learning. This involved designing a user-friendly interface that allows instructors to easily upload course content and interact with students, and enables students to access course materials.
+
+## Technologies Used
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** PHP
+- **Database:** MySQL
+- **Design:** Figma
+
+## Internship Experience
+One of the highlights of my internship was learning the process of designing a website using Figma. This involved creating wireframes and mockups to visualize the layout and functionality of the website before implementing it. It was a valuable experience that taught me the importance of planning and designing before coding.
+
+## Key Features Implemented
+- **Course Content Management:** Instructors can easily upload and manage course content, including videos, documents, and assignments.
+- **Student Interaction:** Students can access course materials .
+- **User Authentication:** Implemented user authentication to ensure that only registered users can access the website's features by normal login and as well as google login.
+- **Responsive Design:** Ensured that the website is responsive and accessible on a variety of devices, including desktops, tablets, and smartphones.
+
+## Conclusion
+Overall, my internship experience was incredibly rewarding, and I learned a lot about web development, design, and project management. I am grateful for the opportunity to work on such an exciting project and look forward to applying the skills and knowledge I have gained in future projects.
 
 # figma design link-
 $ https://www.figma.com/file/Wc1xSFEa7XHwsJ3H56Zdpe/Untitled?type=design&node-id=0%3A1&mode=design&t=QgaXO8VXJtorC089-1
